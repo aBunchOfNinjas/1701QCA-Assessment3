@@ -68,7 +68,6 @@ The above projects are very simmilar to the functionality of the projected scree
 
 ## Other research ##
 <!--- Include here any other relevant research you have done. This might include identifying readings, tutorials, videos, technical documents, or other resources that have been helpful. For each particular source, add a comment or two about why it is relevant or what you have taken from it. You should include a reference or link to each of these resources. --->
-![Image](m                              issingimage.png)
 
 ### Inspiration ###
 * [https://projects.jennyholzer.com/LEDs](https://projects.jennyholzer.com/LEDs)
@@ -90,8 +89,7 @@ The above projects are very simmilar to the functionality of the projected scree
 #### Final Concept #### 
 * [https://www.kitronik.co.uk/blog/distance-sensing-microbit-hc-sr04-module](https://www.kitronik.co.uk/blog/distance-sensing-microbit-hc-sr04-module)
 * Micro:bit tutorial for the Ultrasonic distance sensor
-
-Mitre 
+ 
 
 ## Conceptual development ##
 
@@ -171,7 +169,7 @@ There have been a few major influences in the aesthetic choices made the first b
  ![Image](sketchnest.JPG)
 This was the first imagining of this aesthetic form and it was scribbled down but, further ideas from this included; using intersecting loops of thin plastic or paper and creating a ball or oval shape.
 From this a further inspiration was found, this was Ai Wei Wei's Birds Nest National stadium in Beijing. This stadium was designed by Ai Wei Wei and mimics a presicly weaved birds cage. The design also has a large whole in the top and is oval shaped simmilar to the design that I was going for. Ai's design will be used as an inspiration for the covering of my project and will hopefully resemble its aesthetics. 
-![Image](birdsneststadium.png)
+![Image](ui-2.jpeg)
 #### Interaction ####
 The interaction with the project will be very simmilar to the initial final design however with the project being considerably smaller the interaction will not be triggered untill the user is very close. Instead of reading a message from a far and having it change as you are closer the message will change as you bend down for a closer look. 
 
@@ -230,19 +228,30 @@ Once all of the peices were cut as desired they were glued together. Originally 
 Once the holder for the microbit was completed it was time to build the electronics, for this the main task was to solder the data and power wires to the ultrasonic and then fit all of the batterys and the M:B togther in a small package. 
 
 In order to solder the wires to the ultrasonic and still be able to remove them later I desided to use a small part of PCB board, this would also create a clean result. 
+The order of the pins in the PCB is show in the image below
+![Image](orderingofpins.JPG) 
+This is the improvised helping hand that I used when soldering. 
+![Image](soldering.JPG) 
+This image shows the project once soldered and connected together. 
+![Image](solderedproject.JPG) 
 
-The scematic of the PCB is as follows 
-
-Wires -  Ultrasonic
-O O = Power
-O O = Trigger
-O O = Echo
-O O = Ground
-O O = External Ground
-
-
+After the ultrasonic was soldered to the M:B it was straight to trying to compact these componates to a small unifided unit. The breakout for the microbit was taken from the prototyping board and was pluged in. The initial design had the M:B sit flat against the acrylic but with the breakout it was now higher to compensate for this I went about scavenging for cardboard the apropreate size and luckly found some around the house. This made up the gap and it was back to fitting flush.  
+![Image](tracingresult.JPG) 
+Now with the microbit and breakout sitting on their face the batterys were laid atop of them. The batterys were very simmilar dimentions to the M:B and break out so a peice of card was cut to these dimentions. The cardboard was traced for this.
+![Image](buildingunit.JPG) 
+Once cut the batterys were hot glued to the back of the cardboard and the M:B and break out were fastened to the otherside. The ultrasonic was then positioned in an apropreate spot and glued. The wires were also weaved into the unit so that they were out of the way and clean. 
+This is further explaned in the images below
+![Image](sideview.JPG) 
+![Image](bottomview.JPG)
+![Image](backview.JPG)
+![Image](frontview.JPG)   
+ 
 #### Aesthetics ####
-Once the functional aspects of the project 
+Once the functional aspects of the project were completed it was finally time for the aesthetic covering to be created. It was origonally thought that thin clear plastic strips(cut A4 binding covers) would be used to create the covering as this would align with the aesthetics of the work and would look very nice. Unfortunatly when mocking up the design A4 lenght strips were used and this was fine but, since then the design has grown in size a bit and the A4 strips would not suffice. A3 strips were then considered but, they were not as easly avaliable and could not be purchased in time(they were also expenisve compared to A4). 
+
+As a result A3 paper was to be the replacement, paper shares many simialritys to the binding covers however on key difference (apart from all the obvious ones) is that I does not bend and suporrt it self the same way. To account for this some extra internal supports were added. 
+The final look also is not very reminisent of Ai Wei Wei's bird nest as a simple criss-cross weave was chosen. 
+![Image](assemblingcover.JPG)
 
 ## Final code ##
 
@@ -261,3 +270,8 @@ What techniques, approaches, skills, or information did you find useful from oth
 What parts of your project do you feel are novel. This is IMPORTANT to help justify a key component of the assessment rubric.
 
 What might be an interesting extension of this project? In what other contexts might this project be used? --->
+ 
+
+Across the whole project I am most happy with the screen/projection mechanisem, this both looks very nice on its own as well as seemlessly intergrating the projection system. One of the major changes that I would make to this if I made it again would be to put the electronic compnates on the bottom and have the screen project up instead of down, this would put the ugly electonics in a better position to hide them.  
+
+
