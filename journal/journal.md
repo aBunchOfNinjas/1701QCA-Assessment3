@@ -95,10 +95,9 @@ The above projects are very simmilar to the functionality of the projected scree
 
 ### Design intent ###
 <!--- Include your design intent here. It should be about a 10 word phrase/sentence. --->
-
+Art installation that communicates ideas about living with technology.
 ### Design ideation ###
 <!--- Document your ideation process. This will include the design concepts presented for assessment 2. You can copy and paste that information here. --->
-### Refine and review ###
 
 ### Design concept 1 ###
 My first idea for an interactive that aligns with the design intent, was inspired by Seiko Mikami's *Desire of Codes* this interactive installation has a range of cameras that follow visitors recording them, this footage is projected onto a screen showing past and present visitors in a cool hexagonal visualization. My idea was to use the microbit to create a smart home device reminiscent of Google home/Alexa, the device would listen to people around it and then play back recording of what people have said around it. The device could even have some visual element to get people talking about it while they're nearby. 
@@ -138,18 +137,41 @@ It was calculated that the prototype was 336cm long and I intend on using a 5 hi
 The paper prototype is shown above this was made very simply and was used to estimate the LED cost as well as getting a feel for how the whole thing will look, feel and work.
 
 #### Interaction ####
-At the stage of development when I considered interaction I was racking my head to think about how people could engage with this project as it was only text scrolling across the screen. I thought about the different triggers and interfaces that are available, starting with the ones that on board the microbit. However, I did not think of a suitable trigger in the inventors kit I did think of using an ultrasonic distance sensor as it could detect people approaching the artwork to view it. At this point I had the epiphany to combine a LED strip of text with the figure 8 style shape and make it a sculpture. In incorporating the LED screen into the sculpture I believe people will be drawn into the artwork and will approach it for a closer look. This then can trigger the interaction of the text changing state. Testing, iterating and experimenting will be required to find out if the interaction will actually be carried out. Designing a range of signifiers to signal appropriate action may be required. 
+At the early stage of development when I considered interaction I was racking my head to think about how people could engage with this project as it was only text scrolling across the screen. I thought about the different triggers and interfaces that are available, starting with the ones that on board the microbit. However, I did not think of a suitable trigger in the inventors kit, I did think of using an ultrasonic distance sensor as it could detect people approaching the artwork to view it. At this point I had the epiphany to combine a LED strip of text with the figure 8 style shape and make it a sculpture. In incorporating the LED screen into the sculpture I believe people will be drawn into the artwork and will approach it for a closer look. This then can trigger the interaction of the text changing state. Testing, iterating and experimenting will be required to find out if the interaction will actually be carried out. Designing a range of signifiers to signal appropriate action may be required. 
 
-### What Changed and Why###
-Breifly after the submitting of the Initial design the  
-
+### Changes and Why###
+Breifly after the submitting of the Initial Design the next step was to start experimenting with materials for the loop and buy some other componates. As the initial design came together it was much an image in my head instead of a fully relised project, I also had not endovored into the fabrication very much. As a result of this when it came to buy all of the materials needed it was going to run up quite a bill. It was already know that the LEDs would be expensive but with all of the other needed meterial added(espesialy the plastic for the loop) it was not fesible to continue. At this point a couple of dissisions had to be made I already had a few backup ideas for recreating the interaction with just the microbit so I experimented a litle with mocking up these designs to get a feel for them. After doing this I desided on the new aesthetic form of the project and set about making this a reality.   
+![](designdrawings.png)
+![](designpaperprototypes.png)
 ### Final design concept  ###
 <!--- This should be a description of your concept including its context, motivation, or other relevant information you used to decide on this concept. --->
-#### Functionality ####
-#### Fabrication ####
-#### Aesthetics ####
-#### Interaction ####
+The concept of the final design is for a nest like sculpture with an opening at the front that people can bend down and look through, what they will see is text relevent to the theme of living with technology. The project is be best suited for the context of an art gallery or exibihtion as it quite delicate and is predominately designed for viewing. It also fits the installation/sculpture theme relevent to the design intent. One of the key motivations for the project was the ambition to create an engaging art peice, as this is an interest of mine. Another driving force behind the theme of the project is my interset in the relationship between people and there devices and technology. These days this relationship is both inescapeable and ubiquitous it intregs me. 
 
+#### Functionality ####
+The functional requirements for the project are quite basic and can be simlifyed to two key sections. 
+Microbit requirements
+* Recive sonar data from Ultrasonic
+* Process logic (If 'reading' < 7 )
+* Display text (Actually images to the M:B)
+Power requirements 
+* Power Microbit 
+* Power Ultrasonic sensor
+
+When combined the whole system should monitor if something is close to the sensor and trigger accordingly. 
+
+#### Fabrication ####
+As for fabrication I will start with what is known and create around this. Much of the fabrication of the project will be done by thinking through making and prototyping. From here the look of the project start to be built up as well. So what is known, the 5x5 microbit screen will show the text and the ultrasonic will be looking forward to sense people. The overall size of the project will be not bigger than an A4 sheet and most of the materials will be souce from what I alreay have. 
+
+#### Aesthetics ####
+There have been a few major influences in the aesthetic choices made the first being Jenny Holzer and her LED artworks these works utilaze LED strips of text in various forms to make a social comentary and communicate her message in an aestheic and powerful way. The idea of scrolling LED text and the unique look that comes with this will be adapted to be used in my project. As for the greater overall look of the project this has been formed from the idea presented in the image below.
+ ![Image](scribbledrawingofmbinnest.png)
+This was the first imagining of this aesthetic form and it was scribbled down but, further ideas from this included; using intersecting loops of thin plastic or paper and creating a ball or oval shape.
+From this a further inspiration was found, this was Ai Wei Wei's Birds Nest National stadium in Beijing. This stadium was designed by Ai Wei Wei and mimics a presicly weaved birds cage. The design also has a large whole in the top and is oval shaped simmilar to the design that I was going for. Ai's design will be used as an inspiration for the covering of my project and will hopefully resemble its aesthetics. 
+![Image](birdsneststadium.png)
+#### Interaction ####
+The interaction with the project will be very simmilar to the initial final design however with the project being considerably smaller the interaction will not be triggered untill the user is very close. Instead of reading a message from a far and having it change as you are closer the message will change as you bend down for a closer look. 
+
+See - Interaction under Initial Final design for more.
 ### Interaction flowchart ###
 <!--- Include an interaction flowchart of the interaction process in your project. Make sure you think about all the stages of interaction step-by-step. Also make sure that you consider actions a user might take that aren't what you intend in an ideal use case. Insert an image of it below. It might just be a photo of a hand-drawn sketch, not a carefully drawn digital diagram. It just needs to be legible. --->
 
