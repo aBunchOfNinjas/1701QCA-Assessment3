@@ -91,7 +91,7 @@ The above projects are very simmilar to the functionality of the projected scree
 * [https://www.kitronik.co.uk/blog/distance-sensing-microbit-hc-sr04-module](https://www.kitronik.co.uk/blog/distance-sensing-microbit-hc-sr04-module)
 * Micro:bit tutorial for the Ultrasonic distance sensor
 
-
+Mitre 
 
 ## Conceptual development ##
 
@@ -141,7 +141,7 @@ The paper prototype is shown above this was made very simply and was used to est
 #### Interaction ####
 At the early stage of development when I considered interaction I was racking my head to think about how people could engage with this project as it was only text scrolling across the screen. I thought about the different triggers and interfaces that are available, starting with the ones that on board the microbit. However, I did not think of a suitable trigger in the inventors kit, I did think of using an ultrasonic distance sensor as it could detect people approaching the artwork to view it. At this point I had the epiphany to combine a LED strip of text with the figure 8 style shape and make it a sculpture. In incorporating the LED screen into the sculpture I believe people will be drawn into the artwork and will approach it for a closer look. This then can trigger the interaction of the text changing state. Testing, iterating and experimenting will be required to find out if the interaction will actually be carried out. Designing a range of signifiers to signal appropriate action may be required. 
 
-### Changes and Why###
+### Changes and Why ###
 Breifly after the submitting of the Initial Design the next step was to start experimenting with materials for the loop and buy some other componates. As the initial design came together it was much an image in my head instead of a fully relised project, I also had not endovored into the fabrication very much. As a result of this when it came to buy all of the materials needed it was going to run up quite a bill. It was already know that the LEDs would be expensive but with all of the other needed meterial added(espesialy the plastic for the loop) it was not fesible to continue. At this point a couple of dissisions had to be made I already had a few backup ideas for recreating the interaction with just the microbit so I experimented a litle with mocking up these designs to get a feel for them. After doing this I desided on the new aesthetic form of the project and set about making this a reality.   
 ![Image](sketchofballandbinoc.JPG)
 ![Image](sketchofall.JPG)
@@ -189,7 +189,31 @@ Use subheadings to structure this information. See https://guides.github.com/fea
 There will likely by a dozen or so images of the project under construction. The images should help explain why you've made the choices you've made as well as what you have done. --->
 #### Fabrication ####
 The start of the fabrication stemed off of the desition to change the form of the project. The first call of action for this was to prototype the idea for the nest so that I could weight up how it will look compared to the loop design. 
- ![Image](sketchnest.JPG)
+![Image](sketchnest.JPG)
+![Image](mbinplastic.JPG)
+Once prototyped some more experimenting occured and the aesthetics of the nest was considered. At this point I was not sold on the design and was considering other ways to enclose the M:B or wrap the plastic round it(I had not been inspiared by Ai Wei Wei at this point). From here I dwelled on the project for a little untill class(week 10ish). In class I presented my design and we talked about using a real nest or other materials, this look into nests brought me to thinking about Ai Wei Wei's Birds nest. At this point I had a pretty clear mental image of the final covering so I preseded to think about the internals of the project. 
+
+In creating the nest prototype I used a small peice of acrylic as the base and at sometime in the creation of the prototype or looking at it afterwards I was struck with the idea to use acylic to reflect the text. I have seen this technique used before but not in this application or use. As soon as I connected those dots I knew that it would be an aesthetic way to show the text and also remove the microbit. I was already not pleased with the look of the microbit in the nest so this was a great way to tie it into the visual themes of the project. 
+![Image](testingacrylic.JPG)
+Some imediate experimentation was conducted to find the apropreate angle for the M:B and acrylic, see how it read and teath out some of the potential issues that may arise. 
+From this there was a lot. 
+1. Around 45º was good for veiwing the microbit 
+2. Due to the reflective propertys of the acrylic it produced a 'double vision' of the text
+3. The text was upside down and backwards  
+![Image](testingacrylic2.JPG)
+So how am I going to fix some of these problems, well luckly one was a quick fix. The double vision effect could be easly solved by placing a second very thin sheet of plastic in front of the acrylic, this can be seen in the image above. Some experimentaion with the two plastics I had lead me to this discovery, I had one peice of 4 mm acrylic and many sheets of 200micron binding covers. I quickly discovered that the binding covers only produced one image however, were to flexible to be the screen but, when placed on top of the acrylic they amplifyed one image and defused the other. From this a readable image is created with two images but one much brighter. 
+
+The second problem was simple at its core but quickly ran away in complexity due to the constraintes of the software. In many programing language rotating text on all axis is not much to ask but Python, make code, and Javascript never considered graphical manipulation or text manipulation as a key usecase. After seeking help from my wonderful instructor I was sent some helpful links to fuctions and extenctions that people have written to do just this, unfortunatly non of them considered rotating text on the y axis or were limited in some way. If I was to have programed the text to flip vertically I would of had to program the text with logic so that it would be deconstructed and rebuilt upside down pixel for pixel as was done in the third party add ons. This was not going to happen with my nonexistent Python knowledge and limited JS skills. So what now, it was always consided that I could create a font using the images in make code its just it was thought to be too time consumming. Well 26 charictors later it was actully easier and less time consuming as a created a variable for each letter and drew it in. Once each letter was done I could now call each image to scroll across one after another perfectly, increasing the delay for spaces. Athought this problem was discovered early the research and resulution of this prolem spanned the entirety of the fabrication of the project. 
+
+Now that these issues were sorted out and the considerations for the material was known I started to mockup the screen design. The acrylic needed to be at 45º so that is were I started, taking the cardboard peice that is used in the above testing a mockup was made. 
+![Image](cardboardmockup2.JPG)
+Once completed the design was set and a more refined reproduction of this mockup was made in acrylic. The mockup was quite rough so the microbit was measured and a more presise design was drawn up however even this was not acurate to the end result as some of the fabrication was rough and some parts sanded to make fit. 
+![Image](acrylicmeasurements.JPG)
+From this image only parts A & B were made part C was attempted but not in the U shape that is shown there but in the Z shape that is shown in the mochup. Unfortunatly having only limited hand tools when cutting the Z shape it broke and from this it was detemided to be too hard and time consumming to cut. Another piece was cut exactly as the A piece but thoughout the holes. 
+![Image](parta.JPG)
+A key design desision made at this time was to mitre cut the B piece so that it could be glued flush the A and A2 parts
+![Image](parts.JPG)
+![Image](mitrecuts.JPG)
 #### Aesthetics ####
 
 ## Final code ##
