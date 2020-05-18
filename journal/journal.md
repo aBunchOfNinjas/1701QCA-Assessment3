@@ -42,7 +42,7 @@ Related project
 <!--- Include information about why this project is related to yours. --->
 The above projects are very simmilar to the functionality of the projected screen that is seen in my project. Neither of these links were use to inform the design but the insparation was drawn from the knowledge this reflection effect. 
 
-### *Insert name of related project here* ###
+### *Sonar traffic lights* ###
 
 <!--- Modify code to insert image of related project below --->
 ![Image](missingimage.png)
@@ -155,7 +155,9 @@ Microbit requirements
 * Recive sonar data from Ultrasonic
 * Process logic (If 'reading' < 7 )
 * Display text (Actually images to the M:B)
+
 Power requirements 
+
 * Power Microbit 
 * Power Ultrasonic sensor
 
@@ -200,8 +202,10 @@ From this there was a lot.
 1. Around 45º was good for veiwing the microbit 
 2. Due to the reflective propertys of the acrylic it produced a 'double vision' of the text
 3. The text was upside down and backwards  
+
 ![Image](testingacrylic2.JPG)
-So how am I going to fix some of these problems, well luckly one was a quick fix. The double vision effect could be easly solved by placing a second very thin sheet of plastic in front of the acrylic, this can be seen in the image above. Some experimentaion with the two plastics I had lead me to this discovery, I had one peice of 4 mm acrylic and many sheets of 200micron binding covers. I quickly discovered that the binding covers only produced one image however, were to flexible to be the screen but, when placed on top of the acrylic they amplifyed one image and defused the other. From this a readable image is created with two images but one much brighter. 
+
+So how am I going to fix some of these problems, well luckly one was a quick fix. The double vision effect could be easly solved by placing a second very thin sheet of plastic in front of the acrylic, this can be seen in the image above. Some experimentaion with the two plastics I had lead me to this discovery, I had one peice of reclamed 4 mm acrylic and many sheets of 200micron binding covers. I quickly discovered that the binding covers only produced one image however, were to flexible to be the screen but, when placed on top of the acrylic they amplifyed one image and defused the other. From this a readable image is created with two images but one much brighter. 
 
 The second problem was simple at its core but quickly ran away in complexity due to the constraintes of the software. In many programing language rotating text on all axis is not much to ask but Python, make code, and Javascript never considered graphical manipulation or text manipulation as a key usecase. After seeking help from my wonderful instructor I was sent some helpful links to fuctions and extenctions that people have written to do just this, unfortunatly non of them considered rotating text on the y axis or were limited in some way. If I was to have programed the text to flip vertically I would of had to program the text with logic so that it would be deconstructed and rebuilt upside down pixel for pixel as was done in the third party add ons. This was not going to happen with my nonexistent Python knowledge and limited JS skills. So what now, it was always consided that I could create a font using the images in make code its just it was thought to be too time consumming. Well 26 charictors later it was actully easier and less time consuming as a created a variable for each letter and drew it in. Once each letter was done I could now call each image to scroll across one after another perfectly, increasing the delay for spaces. Athought this problem was discovered early the research and resulution of this prolem spanned the entirety of the fabrication of the project. 
 
@@ -209,12 +213,36 @@ Now that these issues were sorted out and the considerations for the material wa
 ![Image](cardboardmockup2.JPG)
 Once completed the design was set and a more refined reproduction of this mockup was made in acrylic. The mockup was quite rough so the microbit was measured and a more presise design was drawn up however even this was not acurate to the end result as some of the fabrication was rough and some parts sanded to make fit. 
 ![Image](acrylicmeasurements.JPG)
-From this image only parts A & B were made part C was attempted but not in the U shape that is shown there but in the Z shape that is shown in the mochup. Unfortunatly having only limited hand tools when cutting the Z shape it broke and from this it was detemided to be too hard and time consumming to cut. Another piece was cut exactly as the A piece but thoughout the holes. 
+From this image only parts A & B were made part C was attempted but not in the U shape that is shown there but in the Z shape that is shown in the mockup. Unfortunatly having only limited hand tools when cutting the Z shape it broke and from this it was detemided to be too hard and time consumming to cut. Another piece was cut exactly as the A piece but thoughout the holes. 
+
+One of the great challenges in making part A was drilling the square holes, of coure this is imposible so a smaller hole was drilled and then filed to make bigger. The same was done for the centre hole however, more holes were drilled before filing.
+Another great challenge was trying to cut the acrylic straight in most cases using a straight edge or drawing a guide helped.
 ![Image](parta.JPG)
-A key design desision made at this time was to mitre cut the B piece so that it could be glued flush the A and A2 parts
+A key design desision made at this time was to mitre cut the B piece so that it could be glued flush the A and A2 parts this would both match the aesthteics of the work, look nice and provide good surface area for the glue to bond.  
 ![Image](parts.JPG)
 ![Image](mitrecuts.JPG)
+
+Once all of the peices were cut as desired they were glued together. Originally there was meant to be side pieces (part C) as was drawn in the rough diagram above however, once parts A,B & A2 were glued together they were supprisingly strong, definatly enough to hold the M:B and batterys. 
+![Image](upsidedowntextreflection.JPG)
+![Image](bothmockupandacrylic.JPG) 
+
+#### Electonics ####
+Once the holder for the microbit was completed it was time to build the electronics, for this the main task was to solder the data and power wires to the ultrasonic and then fit all of the batterys and the M:B togther in a small package. 
+
+In order to solder the wires to the ultrasonic and still be able to remove them later I desided to use a small part of PCB board, this would also create a clean result. 
+
+The scematic of the PCB is as follows 
+
+Wires -  Ultrasonic
+O O = Power
+O O = Trigger
+O O = Echo
+O O = Ground
+O O = External Ground
+
+
 #### Aesthetics ####
+Once the functional aspects of the project 
 
 ## Final code ##
 
