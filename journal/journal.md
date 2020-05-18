@@ -31,7 +31,7 @@ This project is related to mine because of it is simmilar aesthetic apperence. T
 ### Car Heads Up Display ###
 
 <!--- Modify code to insert image of related project below --->
-![Image](missingimage.png)
+![Image](carhud.jpeg)
 
 <!--- Fill out name and link to related project in the code below. --->
 Related product
@@ -68,6 +68,8 @@ The above projects are very simmilar to the functionality of the projected scree
 
 ## Other research ##
 <!--- Include here any other relevant research you have done. This might include identifying readings, tutorials, videos, technical documents, or other resources that have been helpful. For each particular source, add a comment or two about why it is relevant or what you have taken from it. You should include a reference or link to each of these resources. --->
+![Image](m                              issingimage.png)
+
 ### Inspiration ###
 * [https://projects.jennyholzer.com/LEDs](https://projects.jennyholzer.com/LEDs)
 * Jenny Holzer - This project inspired both the Initial Final design and the Final desgn. 
@@ -111,7 +113,7 @@ This combined with the intensive processing that would be required to trim audio
 My second idea was focused around the infinite scroll user interface used by many of the most popular apps today. The human nature of how we are so easily captivated by this UI I find very interesting. From my own personal experience I've found my self captivated by a screen on many an odd occasion yet it is hard to resist; On the bus looking at the persons phone I front of me if I don't have my own, during a conversation even when I'm quite engaged in it, and when some ones instagram feed is in my field of view, all of these examples are just when I'm looking at others screens and not my own. So is it the swiping or the screen? This is an idea that I wanted to explore for the design intent. My idea to implement this would be screen similar to a phone with a similar UI to instagram of facebook however instead of showing a personalized catalog of images they would be random or stock images. The purpose would be to see how and if people would engage with just a random feed. Would people scroll? How long for? Other interesting ideas for this project could be placing it at a free charging station to see if people would use it to substitute their phone.
 ![Image](swipeforever.JPG)
 
-### Initial final design concept  ###
+### *Initial* final design concept  ###
 The final design concept is a sculpture that displays text on an LED screen and that text changes as a person approaches and it detected by the sculpture. The LED screen will be the focal point of the sculpture as it will display a range of text strings with different messages; one standard loop and one for when someone is detected to be in front of the sculpture.  The sculpture will be used to provoke interest and attract people to engage in the interaction. 
 
 #### Functionality ####
@@ -141,8 +143,8 @@ At the early stage of development when I considered interaction I was racking my
 
 ### Changes and Why###
 Breifly after the submitting of the Initial Design the next step was to start experimenting with materials for the loop and buy some other componates. As the initial design came together it was much an image in my head instead of a fully relised project, I also had not endovored into the fabrication very much. As a result of this when it came to buy all of the materials needed it was going to run up quite a bill. It was already know that the LEDs would be expensive but with all of the other needed meterial added(espesialy the plastic for the loop) it was not fesible to continue. At this point a couple of dissisions had to be made I already had a few backup ideas for recreating the interaction with just the microbit so I experimented a litle with mocking up these designs to get a feel for them. After doing this I desided on the new aesthetic form of the project and set about making this a reality.   
-![](designdrawings.png)
-![](designpaperprototypes.png)
+![Image](sketchofballandbinoc.JPG)
+![Image](sketchofall.JPG)
 ### Final design concept  ###
 <!--- This should be a description of your concept including its context, motivation, or other relevant information you used to decide on this concept. --->
 The concept of the final design is for a nest like sculpture with an opening at the front that people can bend down and look through, what they will see is text relevent to the theme of living with technology. The project is be best suited for the context of an art gallery or exibihtion as it quite delicate and is predominately designed for viewing. It also fits the installation/sculpture theme relevent to the design intent. One of the key motivations for the project was the ambition to create an engaging art peice, as this is an interest of mine. Another driving force behind the theme of the project is my interset in the relationship between people and there devices and technology. These days this relationship is both inescapeable and ubiquitous it intregs me. 
@@ -164,7 +166,7 @@ As for fabrication I will start with what is known and create around this. Much 
 
 #### Aesthetics ####
 There have been a few major influences in the aesthetic choices made the first being Jenny Holzer and her LED artworks these works utilaze LED strips of text in various forms to make a social comentary and communicate her message in an aestheic and powerful way. The idea of scrolling LED text and the unique look that comes with this will be adapted to be used in my project. As for the greater overall look of the project this has been formed from the idea presented in the image below.
- ![Image](scribbledrawingofmbinnest.png)
+ ![Image](sketchnest.JPG)
 This was the first imagining of this aesthetic form and it was scribbled down but, further ideas from this included; using intersecting loops of thin plastic or paper and creating a ball or oval shape.
 From this a further inspiration was found, this was Ai Wei Wei's Birds Nest National stadium in Beijing. This stadium was designed by Ai Wei Wei and mimics a presicly weaved birds cage. The design also has a large whole in the top and is oval shaped simmilar to the design that I was going for. Ai's design will be used as an inspiration for the covering of my project and will hopefully resemble its aesthetics. 
 ![Image](birdsneststadium.png)
@@ -186,6 +188,8 @@ Use subheadings to structure this information. See https://guides.github.com/fea
 
 There will likely by a dozen or so images of the project under construction. The images should help explain why you've made the choices you've made as well as what you have done. --->
 #### Fabrication ####
+The start of the fabrication stemed off of the desition to change the form of the project. The first call of action for this was to prototype the idea for the nest so that I could weight up how it will look compared to the loop design. 
+ ![Image](sketchnest.JPG)
 #### Aesthetics ####
 
 ## Final code ##
