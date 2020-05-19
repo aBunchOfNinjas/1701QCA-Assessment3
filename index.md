@@ -1,5 +1,5 @@
-# *Insert project title here*
-## *Insert your name here* ##
+# Futures Colide 
+## *Noah Maunder* ##
 ## 1701QCA Making Interaction 2020 Final Project ##
 
 <!--- Instructions for the journal will mostly be included as comments, which appear in a block like this that opens with a less than symbol, exclamation mark and three hyphens and closes with three hyphens and a greater than symbol. Make sure you do not include any text you want visible within these symbols or it will not be visible to your instructor. In some cases, such as in headings, there is italicised text included between asterisks that needs to be replaced. --->
@@ -14,6 +14,8 @@ The image should be inserted with code like that below where you replace the fil
 ![Image](missingimage.png)
 
 <!--- PROJECT DESCRIPTION: In a few sentences, describe what the project is and does, who it is for, and a typical use case. This should be suitable for a catalog, poster, or other display material about the project. --->
+Futures Colide is an interactive sculpture that explores themes of living with technology. The sculpture is suited to the gallary and exibhition space and has been designed to reach a vast audience as technology use is omniperesnt these days. Please take your time to explore the piece though the primary interaction is through the centre screen. 
+
 
 <!--- SECONDARY IMAGE: Provide some other image that gives a viewer a different perspective on the project such as more about how it functions, the project in use, or something else. This should not just be a different angle of the same object. It should show the project in use if the first image didn't show that, or somehow tell us a different story about the project. --->
 
