@@ -45,26 +45,15 @@ The above projects are very similar to the functionality of the projected screen
 ### *Sonar traffic lights* ###
 
 <!--- Modify code to insert image of related project below --->
-![Image](missingimage.png)
+
 
 <!--- Fill out name and link to related project in the code below. --->
-[Name of related project](https://[URL of related project])
+[https://www.kitronik.co.uk/blog/distance-sensing-microbit-hc-sr04-module](https://www.kitronik.co.uk/blog/distance-sensing-microbit-hc-sr04-module)
 
 <!--- Include information about why this project is related to yours. --->
-
+This project is related to mine because it uses the Ultrasonic distence sensor
 <!--- Repeat code above for a total of 6 related projects --->
 
-### *Insert name of related project here* ###
-
-<!--- Modify code to insert image of related project below --->
-![Image](missingimage.png)
-
-<!--- Fill out name and link to related project in the code below. --->
-[Name of related project](https://[URL of related project])
-
-<!--- Include information about why this project is related to yours. --->
-
-<!--- Repeat code above for a total of 6 related projects --->
 
 ## Other research ##
 <!--- Include here any other relevant research you have done. This might include identifying readings, tutorials, videos, technical documents, or other resources that have been helpful. For each particular source, add a comment or two about why it is relevant or what you have taken from it. You should include a reference or link to each of these resources. --->
